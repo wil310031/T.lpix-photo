@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_reset.scss","../scss/_bases.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;ACFF;EACE;;;AAGF;EACE;;;AAGF;AAAA;AAAA;AAAA;AAAA;AAAA;EAME;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE","file":"style.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../scss/_reset.scss",
+    "../scss/_bases.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACE;EACA;;;ACFF;EACE;;;AAGF;EACE;;;AAGF;AAAA;AAAA;AAAA;AAAA;AAAA;EAME;;;AAGF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE",
+  "file": "style.css"
+}
