@@ -136,8 +136,8 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 250px;
-      width: 350px;
+      height: 300px;
+      width: 400px;
       margin-bottom: 3rem;
     }
     .cont-img i {
@@ -152,7 +152,7 @@ header {
       transition: 0.8s;
     }
     .cont-img img:hover {
-      transform: rotate(3deg);
+      transform: rotate(2deg);
       filter: grayscale(90%);
       cursor: pointer;
     }
