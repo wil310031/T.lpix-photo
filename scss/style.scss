@@ -68,7 +68,60 @@ header {
     padding: 0 1.5rem;
   }
   a {
-    font-weight: bold;
+    font-weight: 400;
     color: white;
+  }
+}
+
+.who {
+  text-align: center;
+  padding: 5rem 0 5rem 0;
+  background: rgba(87, 101, 116, 0.05);
+
+  h2 {
+    font-size: 3rem;
+    color: #0652dd;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .picture-profile {
+      flex: 1;
+      padding: 2rem;
+
+      img {
+        border-radius: 100%;
+        width: 40%;
+      }
+    }
+
+    .description {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: justify;
+      padding-right: 3rem;
+      line-height: 3rem;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      font-size: 1.8rem;
+
+      p {
+        padding-top: 3rem;
+      }
+    }
+  }
+}
+
+.portfolio {
+  text-align: center;
+  padding-top: 5rem;
+
+  h2 {
+    font-size: 3rem;
+    color: #0652dd;
   }
 }

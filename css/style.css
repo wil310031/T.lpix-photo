@@ -31,6 +31,7 @@ ul li {
 }
 
 a {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: var(--text);
 }
@@ -51,18 +52,21 @@ button {
   padding: 0.3rem 0.3rem;
   border: none;
   border: 1px solid #666;
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
   background: rgba(87, 101, 116, 0.5);
   transition: 0.2s;
 }
 
 button:hover {
-  background: #f5f6fa;
+  border: 1px solid #0652dd;
+  background: rgba(245, 246, 250, 0.8);
   color: #666;
 }
 
 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   letter-spacing: 0.3rem;
 }
 
@@ -129,8 +133,54 @@ header {
   padding: 0 1.5rem;
 }
 .nav a {
-  font-weight: bold;
+  font-weight: 400;
   color: white;
+}
+
+.who {
+  text-align: center;
+  padding: 5rem 0 5rem 0;
+  background: rgba(87, 101, 116, 0.05);
+}
+.who h2 {
+  font-size: 3rem;
+  color: #0652dd;
+}
+.who .content {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.who .content .picture-profile {
+  flex: 1;
+  padding: 2rem;
+}
+.who .content .picture-profile img {
+  border-radius: 100%;
+  width: 40%;
+}
+.who .content .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  padding-right: 3rem;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: 1.8rem;
+}
+.who .content .description p {
+  padding-top: 3rem;
+}
+
+.portfolio {
+  text-align: center;
+  padding-top: 5rem;
+}
+.portfolio h2 {
+  font-size: 3rem;
+  color: #0652dd;
 }
 
 /*# sourceMappingURL=style.css.map */
