@@ -1,3 +1,74 @@
 @import "reset";
 @import "bases";
 @import "media-queries";
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.back-img {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(../img/ferrari.jpg) no-repeat center center / cover;
+  filter: grayscale(50%);
+
+  h2 {
+    font-size: 6rem;
+    color: white;
+  }
+  span {
+    font-family: "Dancing Script", cursive;
+    color: #0652dd;
+    font-size: 7rem;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 7rem;
+  }
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background: rgba(95, 39, 205, 0.9);*/
+  background: rgba(87, 101, 116, 0.5);
+
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 0 0 0;
+    margin-left: 2rem;
+  }
+
+  ul {
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  ul li {
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    line-height: 3rem;
+    padding: 0 1.5rem;
+  }
+  a {
+    font-weight: bold;
+    color: white;
+  }
+}

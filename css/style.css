@@ -5,9 +5,11 @@
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: "PT Serif", serif;
   font-size: 1.6rem;
 }
 
@@ -24,13 +26,111 @@ ul {
   list-style: none;
 }
 
+ul li {
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
   color: var(--text);
 }
 
+ul li a:hover {
+  text-decoration: underline;
+}
+
 img {
   max-width: 100%;
+}
+
+button {
+  min-width: 250px;
+  min-height: 45px;
+  letter-spacing: 0.5rem;
+  font-size: 1.8rem;
+  padding: 0.3rem 0.3rem;
+  border: none;
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: white;
+  background: rgba(87, 101, 116, 0.5);
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #f5f6fa;
+  color: #666;
+}
+
+p {
+  letter-spacing: 0.3rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.back-img {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(../img/ferrari.jpg) no-repeat center center/cover;
+  filter: grayscale(50%);
+}
+.back-img h2 {
+  font-size: 6rem;
+  color: white;
+}
+.back-img span {
+  font-family: "Dancing Script", cursive;
+  color: #0652dd;
+  font-size: 7rem;
+}
+.back-img p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 7rem;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background: rgba(95, 39, 205, 0.9);*/
+  background: rgba(87, 101, 116, 0.5);
+}
+.nav h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-size: 3rem;
+  color: white;
+  padding: 0.5rem 0 0 0;
+  margin-left: 2rem;
+}
+.nav ul {
+  display: flex;
+  margin-right: 2rem;
+}
+.nav ul li {
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+  line-height: 3rem;
+  padding: 0 1.5rem;
+}
+.nav a {
+  font-weight: bold;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
