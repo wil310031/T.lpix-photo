@@ -179,8 +179,39 @@ header {
   padding-top: 5rem;
 }
 .portfolio h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #0652dd;
+  padding-bottom: 3rem;
+}
+.portfolio .content-portfolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-size: cover;
+}
+.portfolio .content-portfolio .cont-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 350px;
+  margin-bottom: 3rem;
+}
+.portfolio .content-portfolio .cont-img i {
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+}
+.portfolio .content-portfolio .cont-img img {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  transition: 0.8s;
+}
+.portfolio .content-portfolio .cont-img img:hover {
+  transform: rotate(3deg);
+  filter: grayscale(90%);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
