@@ -14,7 +14,7 @@ function typewriter() {
     cmpt = -1;
   }
   cmpt++;
-  setTimeout("typewriter()", 250);
+  setTimeout("typewriter()", 200);
 }
 window.onload = function () {
   typewriter();
